@@ -1,0 +1,4 @@
+[lab2]
+13.62.46.250 ansible_user=ubuntu ansible_ssh_private_key_file=~/Downloads/ubuntuec2.pem
+[lab3]
+13.62.46.250 ansible_user=ubuntu ansible_ssh_private_key_file=~/Downloads/ubuntuec2.pem

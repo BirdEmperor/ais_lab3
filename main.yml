@@ -1,0 +1,6 @@
+- name: Install a package depending on Linux family
+  hosts: lab2
+  become: true
+
+  roles:
+    - installer
