@@ -5,8 +5,8 @@
     update_cache: true
   when: ansible_os_family == "Debian"
 
-- name: Install package on RedHat-based systems
-  ansible.builtin.yum:
-    name: "{{ package_name }}"
-    state: present
-  when: ansible_os_family == "RedHat"
+# - name: Install package on RedHat-based systems
+#   ansible.builtin.yum:
+#     name: "{{ package_name }}"
+#     state: present
+#   when: ansible_os_family == "RedHat"
