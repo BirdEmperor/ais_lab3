@@ -1,5 +1,5 @@
 - name: Install a package depending on Linux family
-  hosts: lab2
+  hosts: lab3
   become: true
 
   roles:
